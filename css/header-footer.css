@@ -5,7 +5,6 @@
     display: flex;
     gap: 40px;
     align-items: center;
-    justify-content: space-between;
 }
 .header-nav{
     display: flex;
@@ -42,6 +41,9 @@
   @media screen and (max-width: 767.8px){
     .nav{
         display: none;
+    }
+    .header-container {
+        justify-content: space-between;
     }
   }
   .burger-svg{
@@ -168,3 +170,8 @@
     display: flex;
     gap: 20px
 }
+@media screen and (min-width: 768px){
+    .burger{
+        display: none;
+    }
+  }
