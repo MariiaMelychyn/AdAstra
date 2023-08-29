@@ -125,6 +125,7 @@
     <link rel="stylesheet" href="./ostx_files/form-toolong.css" />
     <link rel="stylesheet" href="./ostx_files/css2.css" />
     <link rel="stylesheet" href="./ostx_files/style_a3com.4147c6cb54db3b3546cb.css" />
+    <link rel="stylesheet" href="./css/header-footer.css">
     <link type="text/css" rel="stylesheet" charset="UTF-8" href="./ostx_files/m=el_main_css" />
 
     <script>
@@ -142,7 +143,56 @@
     data-gr-ext-installed="" style="overflow: auto" onload="displayDate()">
     <div id="fbody" class="fbody Home" data-config="third-menu">
         <!-- ==== HEADER ==== -->
+<header class="header">
+    <div class="container header-container">
+    <img src="./ostx_files/zdravie.webp" class="zdravie" alt="zdravie" width="40" height="40">
+<nav class="nav">
+    <ul class="header-nav">
+        <li><a href="" class="site-header">Zdravý život</a></li>
+        <li><a href="" class="site-header">Rodina a tehotenstvo</a></li>
+        <li><a href="" class="site-header">Novinky a odborníci</a></li>
+        <li><a href="" class="site-header">Video</a></li>
+    </ul>
+</nav>
+<button class="burger js-open-menu" type="button">
+    <svg class="burger-svg" width="32" height="22">
+      <use href="./ostx_files/icons.svg#menu-hamburger"></use>
+    </svg>
+    MENU
+  </button>
+  </div>
+  <div class="mobile-menu js-menu-container">
+    <button class="button-menu js-close-menu" type="button">
+      <svg class="menu-close" width="8" height="8">
+        <use href="./ostx_files/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <ul class="list mobile">
+      <li>
+        <a href="" class="link mobile-nav">Zdravý život</a>
+      </li>
+      <li>
+        <a href="" class="link mobile-nav">Rodina a tehotenstvo</a>
+      </li>
+      <li><a href="" class="link mobile-nav">Novinky a odborníci</a></li>
+      <li><a href="" class="link mobile-nav">Video</a></li>
+      <li><a href="" class="link mobile-predplatné">Predplatné</a></li>
+      <li class="team-list">
+        <a class="link link-svg" href="">
+            <svg class="team-svg" width="24" height="24">
+              <use href="./ostx_files/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        <a class="link link-svg" href="">
+          <svg class="team-svg" width="24" height="24">
+            <use href="./ostx_files/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
 
+</header>
         <!-- ==== FIN HEADER ==== -->
         <main data-index="0">
             <article class="module-interior" data-mod="atresmedia_module_interior">
@@ -1164,7 +1214,7 @@
             })
         })
     </script>
-
+<script src="./js/mobail-menu.js"></script>
 </body>
 
 </html>

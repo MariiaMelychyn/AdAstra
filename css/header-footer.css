@@ -1,0 +1,170 @@
+.header{
+    background: #01a0b6
+}
+.header-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav{
+    display: flex;
+    gap: 40px;
+    margin:0;
+}
+.zdravie{
+    width: 127px;
+    height: 100px;
+}
+.site-header{
+    color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    font-family: ibm plex sans,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 30px 0;
+}
+.site-header:hover{
+    color: #fff;
+}
+.site-header:hover::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    height: 4px;
+    border-radius: 2px;
+    background: #fff;
+    color: #fff;
+  }
+  @media screen and (max-width: 767.8px){
+    .nav{
+        display: none;
+    }
+  }
+  .burger-svg{
+    stroke: white;
+  }
+  .burger{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,max-content);
+    grid-gap: 0.625rem;
+    color: #fff;
+  }
+
+
+.mobile-menu {
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #2d3580;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 80px 24px 40px 40px;
+  transform: translateX(100%);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+.mobile {
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    gap:16px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 0 0 80px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mobile-li {
+  margin-bottom: 40px;
+}
+
+.nav-list {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.menu-active {
+  color: #4d5ae5;
+}
+.button-menu {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #606d9f;
+  }
+  .mobile-nav{
+    font-weight: 600;
+    font-style: normal;
+    font-family: ibm plex sans,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+  }
+  .mobile-predplatné{
+    font-weight: 700;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: .75rem;
+    line-height: 1.75rem;
+    width: 7.375rem;
+    height: 3rem;
+    margin-top: 0.3125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #01a0b6;
+    border-radius: 0.3125rem;
+    text-transform: uppercase;
+  }
+  .link-svg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid #606d9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-svg{
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: #7a87b8;
+}
+.team-list{
+    display: flex;
+    gap: 20px
+}
