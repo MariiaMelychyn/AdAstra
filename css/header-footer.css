@@ -175,3 +175,199 @@
         display: none;
     }
   }
+  footer{
+    background: #202c59;
+  }
+
+  .footer-block{
+    gap: 80px;
+    padding-top: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-block ul{
+    display:flex;
+    grid-gap: 1.25rem;
+  }
+  .footer-vyhodnelia{
+    display: flex;
+    grid-gap: 1.25rem;
+    align-items: center;
+  }
+  .zdr{
+    width:120px;
+    height:160px;
+    position: relative;
+    display: block;
+    box-shadow: 0 13px 30px 0 rgba(0,0,0,.15);
+    transition: all 200ms ease;
+  }
+
+
+  .scroll-outer {
+    overflow-x: scroll;
+    width: 100%;
+    margin-bottom: 2.5rem
+  }
+
+  .scroll-container {
+    display: flex;
+    white-space: nowrap;
+    width: max-content;
+  }
+
+  .scroll-item {
+    flex: 0 0 100px;
+    margin-right: 20px;
+  }
+
+.btn-advantageous-drugs{
+    font-weight: 600;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    position: relative;
+    margin:0;    
+}
+.btn-advantageous-drugs:hover::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    height: 4px;
+    border-radius: 2px;
+    background: #fff;
+    color: #fff;
+  }
+.btn-advantageous-drugs__desc{
+    font-weight: 600;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    color: #7a87b8;
+    margin:0;
+}
+
+.footer-card{
+    display: grid;
+    overflow: hidden;
+    position: relative;
+    grid-template-columns: repeat(2,max-content);
+    grid-gap: 2.5rem;
+    align-items: flex-end;
+    padding-top: 2.5rem;
+    margin-top: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 1px solid #2e3d73;
+    justify-content: center
+}
+.zdr{
+    border-radius: 5px;
+}
+.quote-footer__heading{
+    font-weight: 600;
+    font-style: normal;
+    font-family: ibm plex sans,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 4px;
+    color: #fff;
+}
+.quote-footer__desc{
+    font-weight: 400;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    color: #c2d6f0;
+}
+.print-promo__link{
+    font-weight: 700;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    grid-gap: 0.5rem;
+    color: #ffde33;
+    text-transform: uppercase;
+    align-items: center;
+    position:relative
+}
+.print-promo__link:hover{
+    color: #ffde33;
+}
+.print-promo__link:hover::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom:1px;
+    height: 4px;
+    border-radius: 2px;
+    background: #ffde33;
+    color: #ffde33;
+  }
+
+  .site-footer__bottom{
+    background: #1c274f;
+    padding-top: 3rem;
+    padding-bottom: 3rem
+  }
+  .site-footer__item{
+    margin: 0 0 0 1.75rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    color: #fff;
+    min-width: auto;
+  }
+
+  .site-footer__nmh-info{
+    font-weight: 400;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    color: #7a87b8;
+    display: block;
+    text-align: center;
+  }
+  .site-footer__company{
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: open sans,sans-serif;
+    font-size: .75rem;
+    line-height: 1.5rem;
+    color: #7a87b8;
+    display: block;
+    text-align: center
+  }
+  .site-footer__logo-nmh{
+    width: 4.6875rem;
+    height: 3.5625rem;
+
+  }
+.footer-site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imff{
+    transform: translateY(45px);
+    position: absolute;
+}
